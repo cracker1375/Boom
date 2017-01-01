@@ -3,8 +3,8 @@
 #ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
 #:((
 # For More Information ....! 
-# Developer : reza < @Yagop > 
-# our channel: @Ntflight
+# Developer : Hessam 
+# ID : @H_terminal
 # Version: 1.1
 #:))
 #ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
@@ -15,7 +15,7 @@ local function yagop(msg, matches, callback, extra)
 local data = load_data(_config.moderation.data)
 
 local group_welcome = data[tostring(msg.to.id)]['group_welcome']
--------------------------- Data Will be save on Moderetion.json @DevPointCH
+-------------------------- Data Will be save on Moderetion.json @H_Terminal
     
 if matches[1] == 'delwlc' and not matches[2] and is_owner(msg) then 
     
@@ -52,7 +52,7 @@ data[tostring(msg.to.id)]['group_welcome'] = matches[1]
 end
 if not is_owner(msg) then 
     return 'For Owners Only!'
-end--@Ntflight
+end--@H_Terminal
 
 
     
@@ -65,4 +65,4 @@ return {
   },
   run = yagop
 }
---post by channel @Ntflight
+--post by ID @H_Terminal

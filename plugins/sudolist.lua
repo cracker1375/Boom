@@ -3,8 +3,8 @@
 #ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
 #:((
 # For More Information ....! 
-# Developer : reza < @Yagop > 
-# our channel: @Ntflight
+# Developer : Hessam 
+# ID : @H_Terminal
 # Version: 1.1
 #:))
 #ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
@@ -15,7 +15,7 @@ do
 local function yagop(msg, matches)
 if is_sudo(msg) and matches[1]== "sudo" then
 return [[
-🃏🔱 BOMBUSMOD 🔱🃏
+🃏🔱 BOOM BOOM 🔱🃏
 ________________________
 /addbot :: بوت فعال | 📢
 /rembot :: بوت غیرفعال | 🔕
@@ -38,7 +38,7 @@ ________________________
 /p - مشخصات | ✖️
 /clean + بررسی پیام :: عدد | 🔱
 ________________________
-@Yagop🔹سازنده]]
+@H_Terminal🔹سازنده]]
 end
 
 if not is_momod(msg) then

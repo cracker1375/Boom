@@ -1,15 +1,4 @@
---[[
-#
-#ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
-#:((
-# For More Information ....! 
-# Developer : Hessam 
-# ID : @H_Terminal
-# Version: 1.1
-#:))
-#ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
-#
-]]
+
 local function history(extra, suc, result)
   for i=1, #result do
     delete_msg(result[i].id, ok_cb, false)

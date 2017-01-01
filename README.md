@@ -1,34 +1,11 @@
-# bombusmod
-```
-ترمینال لینوگس باز میکنی . 
-```
-بعد میزنی یه یوزر میسازی اینجوری
-```
-sudo adduser yagop 
-```
-بعد رمز میخاد ازت دوبار میزنی رمزتو
-```
-بعد اینتر بزن تا برسی مرحله 
-```
-بزن y
-```
-تموم
-```
-بعد وارد یوزرت شو با
-```
-login yagop
-```
-بعد رمز میخاد بزن
-```
-ادامه رو مثل این برو
-```
+#Boom
 # Let's install the bot.
 ```
 cd $HOME
 ```
-git clone https://github.com/goblinor/BomBus1.git
+git clone https://github.com/cracker1375/Boom.git
 ```
-cd BomBus1
+cd Boom
 ```
 ```
 ```
@@ -46,10 +23,6 @@ chmod +x launch.sh
 
 **دقـــــــــــيق مثل همین عمل کنید**
 
-```
 
-```
-
-```
 
 

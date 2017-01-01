@@ -1,5 +1,5 @@
 do local _ = {
-  about_text = "Welcome to BombusMOD For more information Subscribe to the channel @Ntflight",
+  about_text = "Welcome to BOOM BOOM For more information Subscribe to the ID @H_Terminal",
   enabled_plugins = {
     "admin",
     "onservice",
@@ -63,9 +63,7 @@ do local _ = {
     data = "data/moderation.json"
   },
   sudo_users = {
-    133362226,
-    242486676,
-    157063890
+    165859842,
   }
 }
 return _

@@ -3,8 +3,8 @@
 #ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
 #:((
 # For More Information ....! 
-# Developer : reza < @Yagop > 
-# our channel: @Ntflight
+# Developer : Hessam 
+# ID : @H_Terminal
 # Version: 1.1
 #:))
 #ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
@@ -29,4 +29,4 @@ return {
   run = DevPoint,
 }
 
---post by : channel : @Ntflight
+--post by : ID : @H_terminal

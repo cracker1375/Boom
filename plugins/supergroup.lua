@@ -1,7 +1,7 @@
 
 --Begin supergrpup.lua
 --Check members #Add supergroup
---channel : @Ntflight
+--ID : @H_Terminal
 local function check_member_super(cb_extra, success, result)
   local receiver = cb_extra.receiver
   local data = cb_extra.data
@@ -137,7 +137,7 @@ end
 		username = ""
 	end
 	text = text.."\n"..i.." - "..name.." "..username.." [ "..v.peer_id.." ]\n"
-	--text = text.."\n"..username Channel : @Ntflight
+	--text = text.."\n"..username ID : @H_Terminal
 	i = i + 1
 end
     local file = io.open("./groups/lists/supergroups/"..cb_extra.receiver..".txt", "w")
@@ -1628,7 +1628,7 @@ local function yagop(msg, matches)
 
 		if not data[tostring(msg.to.id)] then
 			return
-		end--@Ntflight = Dont Remove
+		end--@H_Terminal = Dont Remove
 		if matches[1] == "gpinfo" then
 			if not is_owner(msg) then
 				return
@@ -1702,7 +1702,7 @@ local function yagop(msg, matches)
 				if is_momod2(user_id, channel_id) and not is_admin2(user_id) then
 					return send_large_msg(receiver, "You can't kick mods/owner/admins")
 				end
-				@Ntflight
+				@H_Terminal
 				savelog(msg.to.id, name_log.." ["..msg.from.id.."] kicked: [ user#id"..user_id.." ]")
 				kick_user(user_id, channel_id)]]
 				local	get_cmd = 'channel_block'
@@ -1832,7 +1832,7 @@ local function yagop(msg, matches)
 			local receiver = channel..matches[3]
 			local user = "user#id"..matches[2]
 			chaannel_kick(receiver, user, ok_cb, false)
-			@Ntflight
+			@H_Terminal
 		end]]
 
 			if matches[1] == 'setadmin' then

@@ -4,7 +4,7 @@
 #:((
 # For More Information ....! 
 # Developer : Hessam
-# our channel: @H_Terminal
+# ID : @H_Terminal
 # Version: 1.1
 #:))
 #ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ

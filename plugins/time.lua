@@ -1,15 +1,4 @@
---[[
-#
-#ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
-#:((
-# For More Information ....! 
-# Developer : Hessam 
-# ID : @H_Terminal
-# Version: 1.1
-#:))
-#ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
-#
-]]
+
 -- Implement a command !time [area] which uses
 -- 2 Google APIs to get the desired result:
 --  1. Geocoding to get from area to a lat/long pair

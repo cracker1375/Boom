@@ -3,8 +3,8 @@
 #ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
 #:((
 # For More Information ....! 
-# Developer : reza < @Yagop > 
-# our channel: @Ntflight
+# Developer : Hessam 
+# ID : @H_Terminal
 # Version: 1.1
 #:))
 #ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
@@ -13,7 +13,7 @@
 --Begin msg_checks.lua
 --Begin pre_process function
 local function pre_process(msg)
--- Begin 'RondoMsgChecks' text checks by @rondoozle
+-- Begin 'RondoMsgChecks' text checks by @H_Terminal
 if is_chat_msg(msg) or is_super_group(msg) then
 	if msg and not is_momod(msg) and not is_whitelisted(msg.from.id) then --if regular user
 	local data = load_data(_config.moderation.data)
@@ -299,7 +299,7 @@ if is_chat_msg(msg) or is_super_group(msg) then
 		end
 	end
 end
--- End 'RondoMsgChecks' text checks by @Rondoozle
+-- End 'RondoMsgChecks' text checks by @H_Terminal
 	return msg
 end
 --End pre_process function

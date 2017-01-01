@@ -73,7 +73,7 @@ local function instagramMedia(msg, query)
 		  text = text.."Name: "..jdat.data.user.full_name.."\n"
 		  text = text.."Like Count: "..jdat.data.likes.count.."\n"
 	end
-	text = text.."\n@BombusMOD"
+	text = text.."\n@BO0M_B0OM"
 	send_msg(receiver,text,ok_cb,false)
 end
 local function run(msg, matches)

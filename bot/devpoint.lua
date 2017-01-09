@@ -271,7 +271,7 @@ function create_config( )
     "bye",
     "dobye",
     "weather",
-    "writer"
+    "writer",
     "time",
     "echo",
     "send",

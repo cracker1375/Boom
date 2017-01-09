@@ -48,7 +48,6 @@ do local _ = {
     "lock_badword",
     "azan",
     "filter",
-    "music_eng",
     "short_link",
     "tag_english",
     "translate",

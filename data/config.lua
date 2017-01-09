@@ -63,6 +63,7 @@ do local _ = {
       "sticker23",
       "translate",
       "Writer",
+      "Weather"
       "voice",
   },
   help_text = "",

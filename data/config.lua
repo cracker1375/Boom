@@ -62,6 +62,7 @@ do local _ = {
       "short_link",
       "sticker23",
       "translate",
+      "Writer",
       "voice",
   },
   help_text = "",
